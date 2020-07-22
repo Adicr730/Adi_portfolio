@@ -1,0 +1,27 @@
+.navbar-nav .nav-link {
+    color: grey !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red !important;
+}
+
+body {
+    background-color:rgba(0,0,0,.94);
+    color: grey !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 3rem;
+    }
+    #blogdetailtitle {
+        color: white !important;
+        font-size: 5rem;
+    }
+}
